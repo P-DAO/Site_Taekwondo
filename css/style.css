@@ -1,0 +1,84 @@
+/* navbar */
+.bg-red {
+    background-color: #CD2E3A;
+}
+
+/* photo section accueil */
+#accueil {
+    background-color: #263d36;
+    background-image: url("../img/groupePhoto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+#accueil img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+
+#accueil h1 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 300;
+}
+
+#accueil span {
+    color: white;
+}
+
+#accueil a {
+    border: 1px solid #CD2E3A;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+#accueil a:hover {
+    background: #CD2E3A;
+    color: white;
+}
+
+/* bouton remonter */
+#btnTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none; /* caché par défaut */
+  width: 45px;
+  height: 45px;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: linear-gradient(to bottom, #CD2E3A, #FF5A5F);
+  border: #CD2E3A;
+}
+#btnTop:hover {
+    background: linear-gradient(to bottom, #0047A0, #00A0E0);
+}
+
+/* Titre partie */
+#sarun h2, #passagesGrades h2, #partenariat h2 {
+    color: #CD2E3A;
+}
+#horaires h2, #acces h2 {
+    color: #0047A0;
+}
+
+/* footer */
+.footer-blue {
+    background-color: #0047A0;
+}

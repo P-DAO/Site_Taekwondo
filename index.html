@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Site internet de l'association Taekwondo Sarun Dojang de Bussy-Saint-Georges.">
+  <title>Taekwondo</title>
+  <link rel="shorcut icon" type="image/jpeg" href="img/logo_club.png">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Librairie Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"
+    id="bootstrap-css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Librairie Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+
+  <!-- Header -->
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-red navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="d-inline-block align-middle" src="img/logo_club.png" alt="logo_club" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="#sarun">Maître SARUN</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#horaires">Horaires</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#passagesGrades">Passage de grades</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#acces">Accès</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#partenariats">Partenariats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Accueil -->
+  <div id="accueil">
+    <span>Taekwondo - Tradionnel</span>
+    <h1>SARUN DOJANG</h1>
+    <a class="grve-btn grve-btn-1 grve-btn-medium grve-square grve-bg-primary-1 grve-bg-hover-black animate-fade-in-up"
+      href="#contact" target="_self"><span>Contact</span></a>
+  </div>
+
+  <main>
+    <div class="container">
+      <button id="btnTop" class="btn btn-primary rounded-circle" title="Haut">
+        <i class="bi bi-caret-up-square-fill"></i>
+      </button>
+
+      <!-- Maitre -->
+      <section id="sarun" class="my-5">
+        <h2>Le Maître</h2>
+        <div class="row align-items-center">
+          <aside class="col-sm-6">
+            <img class="img-fluid" src="img/Suphouridh_SARUN.jpg" alt="Suphouridh SARUN qui casse une pile de tuiles.">
+          </aside>
+          <article class="col-sm-6">
+            <h3>Suphouridh SARUN,</h3>
+            <p>figure emblématique du taekwondo traditionnel. Il incarne l'excellence et la
+              transmission
+              des valeurs martiales.
+              <br>
+              Professeur diplômé d'État <strong>6ème Dan</strong>, il enseigne à titre professionnel depuis 1989 et fait
+              rayonner le
+              mouvement
+              <strong>Chung Do Kwan</strong>,
+              la célèbre "École de la Vague Bleue". <br>
+              Membre permanent de l'équipe de France Technique et membre du jury pour le passage de grade des hauts
+              gradés,
+              il s'illustre également par un
+              palmarès exceptionnel: <strong>8 fois vainqueurs de la Coupe de France</strong> (trois en combat, trois en
+              technique, et deux
+              en Casse). <br>
+              À travers son
+              enseignement, Suphouridh SARUN perpétue la tradition et l'esprit du taekwondo authentique.
+            </p>
+          </article>
+        </div>
+      </section>
+      <hr>
+      <!-- Horaire -->
+      <section id="horaires" class="my-5">
+        <h2 class="md-4">Horaires</h2>
+        <article class="container">
+          <div class="row text-center text-sm-start">
+            <div class="col-sm-4 mb-4">
+              <h5>Lundi</h5>
+              <p>17h30 à 18h30 : 6-12ans débutants<br>
+                18h30 à 19h30 : 6-12ans gradés<br>
+                19h30 à 20h30 : Adultes gradés<br>
+                20h30 à 21h30 : Adultes gradés</p>
+            </div>
+            <div class="col-sm-4">
+              <h5>Jeudi</h5>
+              <p>17h30 à 18h30 : 6-12ans débutants<br>
+                18h30 à 19h30 : 6-12ans gradés<br>
+                19h30 à 20h30 : Adultes gradés<br>
+                20h30 à 21h30 : Adultes gradés</p>
+            </div>
+            <div class="col-sm-4">
+              <h5>Samedi</h5>
+              <p>18h30 à 20h30 : Cours combat à partir de la ceinture verte</p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <hr>
+      <!-- Passage de grade -->
+      <section id="passagesGrades" class="my-5">
+        <h2>Dates passage de grades</h2>
+        <div>
+          <p>Pour les débutants, il y a trois passages de grades par an. Puis à partir de la ceinture bleue, les passage
+            se font en fin d'année en juin.<br>
+            Premier passage de grade le <strong>jeudi</strong> avant les <strong> vacances de Noël</strong>.<br>
+            Deuxième passage de grade le <strong>jeudi</strong> avant les <strong>vacances de Pâques</strong>.<br>
+            Dernier passage de grade le <strong>jeudi</strong> en juin avant les <strong>vacances d'été</strong>.
+          </p>
+        </div>
+      </section>
+      <hr>
+      <!-- Accès -->
+      <section id="acces" class="my-5">
+        <div class="container"></div>
+        <h2>Accès</h2>
+        <div class="row">
+
+          <!-- Adresses -->
+          <article class="col-md-6">
+            <h5>Adresses:</h5>
+            <p>Pour les cours du <u><strong>lundi</strong></u> :<br>
+              <strong>Complexe sportif Michel Jazy</strong><br>
+              Rue du Cimetière,<br>
+              77600 Bussy-Saint-Georges
+            </p>
+            <p><strong>Accès en bus</strong><br>
+              Place du Clos - Bus 2221, 2226, 2228, 2245
+            </p>
+            <hr>
+            <p>Pour les cours du <u><strong>jeudi</strong></u> et du <u><strong>samedi</strong></u> :<br>
+              <strong>Complexe sportif Laura Flessel</strong><br>
+              15 Bd des 100 Arpents, <br>
+              77600 Bussy-Saint-Georges
+            </p>
+            <p><strong>Accès en bus:</strong><br>
+              Collège Claude Monet - Bus 2244
+            </p>
+          </article>
+
+          <!-- Map -->
+          <aside class="col-md-6 mt-md-0">
+            <div class="ratio ratio-4x3">
+              <iframe src="https://www.google.fr/maps/d/embed?mid=1Jev6VMnXdo5NCH6NI4qAj2bHNZ5qq8A&ehbc=2E312F&noprof=1"
+                style="border:0;" allowfullscreen="" loading="lazy">
+              </iframe>
+            </div>
+          </aside>
+        </div>
+      </section>
+      <hr>
+      <!-- Partenariat -->
+      <section id="partenariat" class="my-5">
+        <h2>Partenariats</h2>
+        <div class="container">
+
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!-- Répète ces blocs pour chaque logo -->
+              <div class="swiper-slide d-flex justify-content-center">
+                <a href="https://www.bussysaintgeorges.fr/" aria-label="Bussy-Saint-Georges"><img src="img/partenariat/Logo-BUSSY.png" alt="Partenaire 1" class="img-fluid" style="max-height: 100px;"></a>
+              </div>
+              <div class="swiper-slide d-flex justify-content-center">
+                <img src="img/logo_club.png" alt="Partenaire 2" class="img-fluid" style="max-height: 100px;">
+              </div>
+              <div class="swiper-slide d-flex justify-content-center">
+                <img src="img/logo_club.png" alt="Partenaire 3" class="img-fluid" style="max-height: 100px;">
+              </div>
+              <div class="swiper-slide d-flex justify-content-center">
+                <img src="img/logo_club.png" alt="Partenaire 4" class="img-fluid" style="max-height: 100px;">
+              </div>
+              <div class="swiper-slide d-flex justify-content-center">
+                <img src="img/logo_club.png" alt="Partenaire 4" class="img-fluid" style="max-height: 100px;">
+              </div>
+              <div class="swiper-slide d-flex justify-content-center">
+                <img src="img/logo_club.png" alt="Partenaire 4" class="img-fluid" style="max-height: 100px;">
+              </div>
+              <!-- etc. -->
+            </div>
+
+            <!-- Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer-blue text-white py-4 mt-5">
+    <div class="container">
+      <h2>Contact</h2>
+      <br>
+      <div class="row align-items-start">
+
+        <!-- Réseaux sociaux -->
+        <aside class="col-md-6 mb-3 mb-md-0">
+          <a class="navbar-brand" href="#">
+            <img class="d-inline-block align-middle md-3" src="img/logo_club.png" alt="logo_club"
+              style="max-width: 150px;">
+          </a>
+          <div>
+            <a href="https://www.instagram.com/taekwondobussy/" target="_blank" class="text-white me-3 fs-4"
+              aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/taekwondosarundojang/" target="_blank" class="text-white me-3 fs-4"
+              aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          </div>
+        </aside>
+
+        <!-- Contact info -->
+        <article class="col-md-6">
+          <p>
+            <i class="bi bi-envelope me-2"></i>
+            <a href="taekwondo.bsg@gmail.com" class="text-white text-decoration-none">contact@taekwondo.fr</a>
+          </p>
+          <p>
+            <i class="bi bi-phone me-2"></i>
+            <a href="tel:+33609108126" class="text-white text-decoration-none">06 12 34 56 78</a>
+          </p>
+        </article>
+      </div>
+    </div>
+    <hr class="border-white my-3">
+    <p class="text-center mb-0">&copy;2025 - SARUN DOJANG</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
